@@ -45,8 +45,8 @@ function App() {
     }
   }
  function emojiClickHandler(e) {
-    const outerText = emojiDictionary[e.target.outerText];
-    setOutput(outerText)
+    const outputText = emojiDictionary[e.target.innerText];
+    setOutput(outputText)
  }
   return (
     <>
