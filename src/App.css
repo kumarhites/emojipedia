@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;700&display=swap');
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1{
+  font-family: 'Zilla Slab', serif;
+}
+p{
+  font-family: 'Zilla Slab', serif;
+  font-weight: 300;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+input{
+  padding: 10px;
+  width: 300px;
+  font-family: 'Zilla Slab', serif;
+  font-size: 20px;
+}
+.emoji {
+font-size: 30px;}
+.emoji:hover {
+  filter: drop-shadow(0 0 10px #fbff06);
+}
+.emoji.red:hover {
+  filter: drop-shadow(0 0 10px #ff1717de);
+}
+
+.font-30{
+  font-size: 30px;
+}
+.flex{
+  display: flex;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+ul{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  padding-top: 20px;
+  padding-inline-start: 0px;
+}
+li{
+  padding: 15px;
+  cursor: pointer;
+}
+.container{
+  max-width: 370px;
+  margin: auto;
+}
