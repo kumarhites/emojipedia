@@ -56,3 +56,31 @@ li{
   max-width: 370px;
   margin: auto;
 }
+.socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.socials h3{
+  margin-bottom: 0px;
+}
+.socials p{
+  margin: 0px;
+}
+.socials li{
+  padding: 0;
+  margin: 0;
+}
+.socials > #foot-heading{
+  font-family: 'Zilla Slab', serif; 
+}
+.socials ul{
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+}
+.socials ul li{
+  list-style: none;
+}

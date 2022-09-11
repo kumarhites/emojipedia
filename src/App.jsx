@@ -1,6 +1,12 @@
 import { useState } from 'react'
 import './App.css'
 
+// social icons
+import github from "./assets/github.png"
+import linkedin from "./assets/linkedin.png"
+import twitter from "./assets/twitter.png"
+import portfolio from "./assets/business.png"
+
 const emojiDictionary = {
   "😴": "Sleeping",
   "😊": "Smiling",
@@ -69,6 +75,26 @@ function App() {
             })}
         </ul>
       </div>
+      <footer>
+        <div class="socials">
+          <h3 id="foot-heading">Socials</h3>
+          <p>You can connect with me here</p>
+          <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/hitesh-kumar09/"><img src={linkedin} alt="linkedin icon"/></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/hitesh091895"><img src={twitter} alt="twitter icon"/></a>
+              </li>
+              <li>
+                <a href="https://github.com/kumarhites"><img src={github} alt="github icon"/></a>
+              </li>
+              <li>
+                <a href="https://kumarhitesh.netlify.app/"><img src={portfolio} alt="portfolio"/></a>
+              </li>
+            </ul>
+        </div>
+      </footer>
     </>
   )
 }
