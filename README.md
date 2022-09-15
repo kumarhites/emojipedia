@@ -1,7 +1,7 @@
 
-# # EmojiPedia 📚
+# EmojiPedia 📚
 
-#EmojiPedia 📚 is made using vanilla javascript. It explains the meaning of emojis that are used often but misinterpreted
+EmojiPedia 📚 is made using vanilla javascript. It explains the meaning of emojis that are used often but misinterpreted
 
 ![Screenshot](screenshot.PNG)
 
@@ -25,7 +25,10 @@ To clone and run this application, you'll need  [Git](https://git-scm.com/)  and
 $ git clone https://github.com/kumarhites/emojipedia.git
 
 # Go into the repository
-$ cd minion-translator
+$ cd emojipedia
+
+# Install dependencies
+$ npm install
 
 # Run the app
 $ npm run dev 
